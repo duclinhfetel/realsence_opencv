@@ -14,7 +14,7 @@ link_directories(
     ${realsense2_LIBRARY_DIRS}
     ${OpenCV_LIBRARY_DIRS}
 )
-20359
+
 FILE(GLOB SRC_FILES *.cpp)
 
 add_executable( realsence_opencv ${SRC_FILES} )
